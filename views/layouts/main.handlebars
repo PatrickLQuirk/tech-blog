@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scate=1.0">
     <title>Just Tech News</title>
-    {{!-- <link rel="stylesheet" href="/stylesheets/style.css"> --}}
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
     <div class="wrapper">
         <header>
-            <h1>
-                <a href="/">Just Tech News</a>
-            </h1>
             <nav>
+                <a href="/">Home</a>
                 {{#if loggedIn}}
                 <a href="/dashboard">dashboard</a>
                 <button id="logout" class="btn-no-style">logout</button>
@@ -22,6 +20,7 @@
                 <a href="/login">login</a>
                 {{/if}}
             </nav>
+            <h1>The Tech Blog</h1>
         </header>
         <main>
             {{{ body }}}
