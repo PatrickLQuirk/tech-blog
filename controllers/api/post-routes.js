@@ -74,8 +74,7 @@ router.get('/:id', (req, res) => {
 
 router.post('/', withAuth, (req, res) => {
     // expects {title: 'Taskmaster goes public!', 
-    // contents: 'Taskmaster recently announced that they are going public! Their stock will be available on the 20th of May', 
-    // user_id: 1}
+    // contents: 'Taskmaster recently announced that they are going public! Their stock will be available on the 20th of May'}
     Post.create({
         title: req.body.title,
         contents: req.body.contents,
