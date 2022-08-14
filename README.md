@@ -4,6 +4,8 @@
 ## Description
 This is a blog site where users can post to their blog, read other peoples blog posts, and comment on blog posts.
 
+![Website](tech-blog.png)
+
 ## Table of Contents
 
 - [License](#license)
